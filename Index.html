@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Card</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -30,7 +30,7 @@
                     <h1 class="full-name" data-testid="fullName">Joel Yahaya</h1>
                     <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
                     <div class="location" data-testid="currentLocation">
-                        <i data-lucide="map-pin"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                         <span>Kaduna, Nigeria</span>
                     </div>
                     <p class="bio" data-testid="shortBio">
@@ -39,3 +39,24 @@
                         and best practices.
                     </p>
                 </div>
+
+                 <!-- Contact and Social -->
+                 <div class="contact-social">
+                    <div class="email" data-testid="emailAddress">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:yahayajoel2@gmail.com">yahayajoel2@gmail.com</a>
+                    </div>
+
+                    <div class="social-links" data-testid="socialLinks">
+                        <a href="https://github.com/Jaybabson007" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joelyahaya/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://x.com/Jaybabson_007" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
