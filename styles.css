@@ -143,3 +143,13 @@
   .social-links i {
     font-size: 1.25rem;
   }
+
+  /* UTC Time */
+.utc-time {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
