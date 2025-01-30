@@ -33,7 +33,7 @@ All elements include data-testid attributes for testing purposes:
 - HTML5
 - CSS3
 - Vanilla JavaScript
-- [Lucide Icons](https://lucide.dev/)
+- [Font Awesome](https://fontawesome.com/) for icons
 
 ## Getting Started
 
