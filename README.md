@@ -2,7 +2,7 @@
 
 A responsive profile card implementation using HTML, CSS, and Vanilla JavaScript. This project creates a modern, interactive profile card that displays personal information and updates UTC time dynamically.
 
-![Profile Card Preview](placeholder-for-screenshot.png)
+![Profile Card Preview](./Img/card.JPG)
 
 ## Features
 
